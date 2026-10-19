@@ -12,9 +12,48 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);transition:background .2s,color .2s}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}.app{min-height:100vh;display:grid;grid-template-columns:248px minmax(0,1fr)}.sidebar{background:var(--panel);border-right:1px solid var(--line);padding:22px 14px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;z-index:10}.brand{display:flex;gap:11px;align-items:center;padding:4px 10px 25px}.logo{width:42px;height:42px;border-radius:13px;background:var(--accent);color:white;display:grid;place-items:center;font:800 25px Manrope}.brand b{font-size:23px;color:var(--accent);line-height:1}.brand small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.side-label{font:800 10px Manrope;letter-spacing:1.5px;color:var(--muted);padding:12px 12px 8px}.nav{display:grid;gap:5px}.nav button{width:100%;text-align:left;border:1px solid transparent;background:transparent;color:var(--muted);border-radius:10px;padding:11px 12px;display:flex;gap:11px;align-items:center;font-size:14px}.nav button:hover,.nav button.active{background:var(--soft);border-color:color-mix(in srgb,var(--accent) 25%,transparent);color:var(--accent)}.nav .sym{width:21px;text-align:center;font-size:17px}.side-bottom{margin-top:auto;border-top:1px solid var(--line);padding:15px 9px 0}.profile{display:flex;align-items:center;gap:10px}.avatar{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;background:var(--soft);color:var(--accent);font-weight:800}.profile small{display:block;color:var(--muted);font-size:11px}.main{min-width:0}.topbar{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:18px;padding:0 30px;background:color-mix(in srgb,var(--bg) 86%,transparent);position:sticky;top:0;z-index:8;backdrop-filter:blur(16px)}.crumb{font-size:13px;color:var(--muted)}.crumb strong{color:var(--text)}.top-actions{display:flex;align-items:center;gap:9px}.btn{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:10px;padding:10px 14px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:13px}.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);border-color:var(--accent);color:white}.btn.soft{background:var(--soft);border-color:transparent;color:var(--accent)}.btn.small{padding:7px 10px;font-size:12px}.iconbtn{height:39px;width:40px;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:10px}.page{padding:28px 30px 55px;max-width:1500px;margin:auto}.pagehead{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:24px}.eyebrow{font:800 10px Manrope;letter-spacing:1.8px;color:var(--accent)}h1{font-size:30px;line-height:1.25;margin:6px 0 7px}h2{font-size:19px;margin:0}h3{font-size:16px;margin:0}.muted{color:var(--muted)}.pagehead p{margin:0;color:var(--muted);font-size:14px}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-bottom:22px}.stat{border:1px solid var(--line);border-radius:15px;background:var(--panel);padding:18px;min-width:0;box-shadow:var(--shadow)}.stat-top{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px}.stat-icon{height:35px;width:35px;display:grid;place-items:center;background:var(--soft);color:var(--accent);border-radius:10px;font-size:18px}.stat strong{display:block;font:800 27px Manrope;margin:14px 0 4px}.stat small{font-size:11px;color:var(--muted)}.layout2{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:18px}.panel{border:1px solid var(--line);border-radius:15px;background:var(--panel);overflow:hidden;min-width:0}.panel-head{padding:18px 20px;display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid var(--line)}.panel-body{padding:18px 20px}.rows{display:grid;gap:0}.item{display:flex;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}.item:last-child{border-bottom:0}.thumb{width:54px;height:54px;flex-shrink:0;border-radius:11px;background:linear-gradient(135deg,#a5163c,#ff735e);display:grid;place-items:center;color:white;font-size:22px;font-weight:800;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover}.item-main{min-width:0;flex:1}.item-main strong{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.item-main small{display:block;color:var(--muted);font-size:11px;margin-top:4px}.badge{display:inline-flex;align-items:center;gap:5px;border-radius:99px;padding:5px 8px;font-size:10px;font-weight:700;white-space:nowrap;background:var(--panel2);color:var(--muted)}.badge.live,.badge.published,.badge.paid{background:color-mix(in srgb,var(--green) 13%,transparent);color:var(--green)}.badge.draft,.badge.pending{background:color-mix(in srgb,var(--yellow) 13%,transparent);color:var(--yellow)}.badge.scheduled{background:color-mix(in srgb,#5f9bff 13%,transparent);color:#7babff}.quickgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.quick{border:1px solid var(--line);border-radius:12px;background:var(--panel2);padding:14px;text-align:left;color:var(--text)}.quick span{font-size:20px;color:var(--accent)}.quick strong{display:block;margin-top:8px;font-size:13px}.quick small{display:block;margin-top:3px;color:var(--muted);font-size:11px}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:690px;font-size:13px}th,td{text-align:left;padding:13px 15px;border-bottom:1px solid var(--line);white-space:nowrap}th{color:var(--muted);font-size:11px;font-weight:600;background:var(--panel2)}tbody tr:last-child td{border-bottom:0}.tabletitle{display:flex;align-items:center;gap:10px}.tabletitle .thumb{width:36px;height:36px;font-size:14px;border-radius:8px}.actions-cell{display:flex;gap:6px}.toolbar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:15px}.search{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--text);min-width:190px;outline:none}.search:focus,input:focus,textarea:focus,select:focus{border-color:var(--accent)!important;outline:2px solid color-mix(in srgb,var(--accent) 12%,transparent)}.toolbar .search{flex:1}.empty{padding:35px 15px;text-align:center;color:var(--muted)}.empty strong{display:block;color:var(--text);margin-bottom:5px}.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.field{display:grid;gap:6px;min-width:0}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:700}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:11px 12px;color:var(--text);min-width:0}.field textarea{min-height:95px;resize:vertical}.hint{font-size:11px;color:var(--muted);line-height:1.65}.formactions{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:19px;flex-wrap:wrap}.cover-preview{height:180px;border-radius:13px;background:linear-gradient(130deg,#861633,#f46c58);padding:18px;color:white;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative}.cover-preview img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.cover-preview>*:not(img){position:relative}.cover-preview b{font-size:24px;max-width:90%}.cover-preview span{font-size:11px}.drop{border:1px dashed var(--line);background:var(--panel2);padding:16px;border-radius:12px}.notice{padding:12px 14px;background:var(--soft);color:var(--text);border-radius:11px;font-size:12px;line-height:1.7}.toast{position:fixed;right:22px;bottom:22px;z-index:40;background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:12px;padding:13px 17px;font-size:13px;max-width:calc(100vw - 40px)}.hidden{display:none!important}.mobile-brand{display:none}.modalback{position:fixed;inset:0;background:#0009;z-index:50;display:grid;place-items:center;padding:18px}.modal{max-width:620px;width:100%;max-height:90vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}.modalhead{padding:18px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.modalbody{padding:21px}.modalfoot{padding:16px 21px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:9px}.warning{color:var(--yellow)}.sessioncard{border:1px solid var(--line);background:var(--panel2);border-radius:13px;padding:14px;display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:10px}.sessioncard strong{font-size:14px}.sessioncard small{display:block;color:var(--muted);font-size:11px;margin-top:5px}.progress{height:6px;background:var(--panel2);border-radius:9px;overflow:hidden}.progress span{display:block;background:var(--accent);height:100%;border-radius:9px}
 @media(max-width:1100px){.app{grid-template-columns:215px minmax(0,1fr)}.page{padding:23px 20px}.topbar{padding:0 20px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.layout2{grid-template-columns:1fr}}
 @media(max-width:720px){.app{grid-template-columns:1fr}.sidebar{position:fixed;left:-270px;width:250px;transition:left .2s;box-shadow:var(--shadow)}.sidebar.open{left:0}.mobile-brand{display:block}.topbar{height:65px;padding:0 14px}.page{padding:21px 14px 45px}.pagehead{flex-direction:column}.pagehead .headactions{display:flex;gap:8px;flex-wrap:wrap}.stats{gap:9px}.stat{padding:13px}.stat strong{font-size:23px}.stat-top{align-items:flex-start;gap:5px}.stat-icon{width:29px;height:29px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.quickgrid{grid-template-columns:repeat(2,1fr)}.panel-head,.panel-body{padding:15px}.footrow{flex-direction:column}.hide-mobile{display:none!important}.top-actions{gap:6px}}
+
+/* Firebase admin authentication gate */
+.app{display:none}
+body.admin-verified .app{display:grid}
+.auth-gate{min-height:100vh;display:grid;place-items:center;padding:32px 18px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 5% 10%,#d8173f1c,transparent 32%),radial-gradient(ellipse at 95% 90%,#ff684f14,transparent 32%),var(--bg)}
+body.admin-verified .auth-gate{display:none}
+.auth-shell{position:relative;z-index:1;width:min(1050px,100%);display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,430px);gap:58px;align-items:center}
+.auth-pitch{padding:20px 0}.auth-brand{display:inline-flex;align-items:center;gap:12px;margin-bottom:42px}.auth-brand .brand-label{font-size:25px;font-weight:800;color:var(--accent);line-height:1}.auth-brand small{display:block;font-size:10px;letter-spacing:1.3px;color:var(--muted);margin-top:5px}.auth-badge{display:inline-flex;border:1px solid var(--line);background:var(--panel);border-radius:99px;padding:7px 11px;font-size:10px;letter-spacing:1.3px;color:var(--accent);font-weight:800}.auth-pitch h1{font-size:clamp(35px,5vw,58px);line-height:1.16;margin:19px 0}.auth-pitch h1 span{color:var(--accent)}.auth-pitch p{max-width:480px;line-height:1.9;color:var(--muted);font-size:15px}.auth-points{display:grid;gap:12px;margin-top:28px}.auth-point{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:13px}.auth-point i{font-style:normal;color:var(--green);font-size:16px}.auth-card{background:var(--panel);border:1px solid var(--line);border-radius:21px;box-shadow:var(--shadow);padding:29px}.auth-card h2{font-size:25px;margin:0 0 6px}.auth-card .intro{color:var(--muted);font-size:13px;line-height:1.7;margin:0 0 21px}.auth-field{display:grid;gap:7px;margin-bottom:14px}.auth-field label{font-size:12px;font-weight:700}.auth-field input{width:100%;padding:12px 13px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);outline:none}.auth-field input:focus{border-color:var(--accent)}.auth-submit,.google-submit{width:100%;min-height:44px;border-radius:11px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:9px}.auth-submit{border:1px solid var(--accent);background:var(--accent);color:white;margin-top:5px}.google-submit{background:var(--surface);border:1px solid var(--line);color:var(--text)}.google-submit:hover{border-color:var(--accent)}.auth-divider{display:flex;align-items:center;gap:12px;margin:16px 0;color:var(--muted);font-size:11px}.auth-divider:before,.auth-divider:after{content:"";height:1px;background:var(--line);flex:1}.auth-message{font-size:12px;line-height:1.7;border-radius:10px;padding:10px 12px;margin-bottom:14px;background:var(--panel2);color:var(--muted)}.auth-message.error{color:#ff9dac;background:#47152280;border:1px solid #96334c66}.auth-message.success{color:var(--green);background:color-mix(in srgb,var(--green) 10%,transparent)}.auth-message:empty{display:none}.auth-privacy{font-size:11px;line-height:1.7;color:var(--muted);text-align:center;margin:17px 0 0}.uid-box{margin-top:12px;border:1px dashed var(--line);border-radius:10px;padding:11px;background:var(--panel2);overflow-wrap:anywhere;font-size:11px;color:var(--muted)}.uid-box strong{display:block;color:var(--text);margin-bottom:6px}.uid-box code{font-size:11px}.uid-copy{margin-top:9px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:7px;padding:6px 9px;font-size:11px}.auth-loading{display:inline-block;width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:authspin .7s linear infinite;vertical-align:middle}@keyframes authspin{to{transform:rotate(360deg)}}.auth-bottom{margin-top:23px;color:var(--muted);font-size:11px;text-align:center}
+@media(max-width:760px){.auth-shell{grid-template-columns:1fr;gap:18px;width:min(440px,100%)}.auth-pitch{padding:6px 0 0}.auth-brand{margin-bottom:24px}.auth-pitch h1{font-size:37px;margin:13px 0}.auth-pitch p{font-size:13px;margin:0}.auth-points{display:none}.auth-card{padding:23px}.auth-bottom{margin-bottom:8px}}
+
 </style>
 </head>
 <body>
+
+<div class="auth-gate" id="authGate">
+  <div class="auth-shell">
+    <section class="auth-pitch">
+      <a class="auth-brand" href="https://github.com/iammdtanvirrahman/focus" target="_blank" rel="noopener">
+        <span class="logo">F</span><span><span class="brand-label">ফোকাস</span><small>ADMIN STUDIO · 2.0</small></span>
+      </a>
+      <div><span class="auth-badge">SECURE CONTENT WORKSPACE</span></div>
+      <h1>প্রস্তুতি গড়ো।<br><span>কনটেন্ট পরিচালনা করো।</span></h1>
+      <p>কোর্স প্রকাশ, ক্লাসের সময়সূচি, নোট ও শিক্ষার্থীদের অর্ডার পরিচালনার জন্য Focus-এর নিরাপদ প্রশাসনিক প্রবেশদ্বার।</p>
+      <div class="auth-points"><div class="auth-point"><i>✓</i> অনুমোদিত অ্যাডমিন অ্যাকাউন্টই প্রবেশ করতে পারবে</div><div class="auth-point"><i>✓</i> Firebase Authentication দিয়ে পরিচয় যাচাই</div><div class="auth-point"><i>✓</i> Firestore-এ admin role ও active status যাচাই</div></div>
+    </section>
+    <section class="auth-card">
+      <h2>Admin sign in</h2><p class="intro">তোমার অনুমোদিত Focus Admin account দিয়ে প্রবেশ করো। নতুন public account তৈরি করার সুবিধা এখানে নেই।</p>
+      <div id="authMessage" class="auth-message" role="status" aria-live="polite">Firebase নিরাপদ সংযোগ যাচাই করা হচ্ছে…</div>
+      <form id="authForm">
+        <div class="auth-field"><label for="authEmail">Email address</label><input id="authEmail" name="email" type="email" autocomplete="username" required placeholder="admin@example.com"></div>
+        <div class="auth-field"><label for="authPassword">Password</label><input id="authPassword" name="password" type="password" autocomplete="current-password" required minlength="6" placeholder="তোমার পাসওয়ার্ড"></div>
+        <button class="auth-submit" id="emailLogin" type="submit">Sign in with email</button>
+      </form>
+      <div class="auth-divider">অথবা</div>
+      <button class="google-submit" id="googleLogin" type="button"><span style="font:800 17px Arial;color:#4285f4">G</span> Continue with Google</button>
+      <div class="uid-box hidden" id="uidBox"><strong>Signed-in Firebase UID</strong><code id="currentUid"></code><br><button class="uid-copy" type="button" id="copyUid">UID কপি করো</button></div>
+      <p class="auth-privacy">শুধু login সফল হলেই Dashboard খুলবে না। Firestore-এ তোমার UID-এর অধীনে role=admin এবং active=true থাকতে হবে।</p>
+      <div class="auth-bottom">FOCUS · ADMIN ACCESS ONLY</div>
+    </section>
+  </div>
+</div>
+
 <div class="app">
 <aside class="sidebar" id="sidebar">
 <a class="brand" href="#overview"><span class="logo">F</span><span><b>ফোকাস</b><small>ADMIN STUDIO · 2.0</small></span></a>
@@ -32,7 +71,7 @@
 <div class="side-bottom"><div class="profile"><span class="avatar">A</span><span><strong>Focus Admin</strong><small>Content manager · Demo</small></span></div></div>
 </aside>
 <main class="main">
-<header class="topbar"><div style="display:flex;align-items:center;gap:12px"><button class="iconbtn mobile-brand" id="sideToggle" aria-label="মেনু">☰</button><div class="crumb">Workspace <span class="muted">/</span> <strong id="crumb">Overview</strong></div></div><div class="top-actions"><span class="badge draft" id="environment">DEMO MODE</span><button class="iconbtn" id="themeBtn" aria-label="থিম পরিবর্তন" title="থিম পরিবর্তন">☼</button><a class="btn small hide-mobile" href="https://github.com/iammdtanvirrahman/focus" target="_blank" rel="noopener">Website ↗</a><button class="btn primary small" id="newCourseTop">＋ New course</button></div></header>
+<header class="topbar"><div style="display:flex;align-items:center;gap:12px"><button class="iconbtn mobile-brand" id="sideToggle" aria-label="মেনু">☰</button><div class="crumb">Workspace <span class="muted">/</span> <strong id="crumb">Overview</strong></div></div><div class="top-actions"><span class="badge draft" id="environment">FIREBASE ADMIN</span><button class="btn small" id="logoutBtn" type="button">Sign out</button><button class="iconbtn" id="themeBtn" aria-label="থিম পরিবর্তন" title="থিম পরিবর্তন">☼</button><a class="btn small hide-mobile" href="https://github.com/iammdtanvirrahman/focus" target="_blank" rel="noopener">Website ↗</a><button class="btn primary small" id="newCourseTop">＋ New course</button></div></header>
 <div class="page" id="page"></div>
 </main>
 </div>
@@ -100,4 +139,172 @@ document.addEventListener('input',e=>{if(e.target.id==='courseSearch'||e.target.
 document.addEventListener('change',e=>{if(e.target.matches('[data-order-status]')){let o=orders.find(x=>x.id===e.target.dataset.orderStatus);if(o){o.status=e.target.value;save();render();notify('Demo order updated. No payment has been processed.')}}if(e.target.id==='importFile'&&e.target.files[0]){const reader=new FileReader();reader.onload=()=>{try{let d=JSON.parse(reader.result);if(!Array.isArray(d.courses)||!Array.isArray(d.classes))throw new Error('invalid');courses=d.courses;classes=d.classes;materials=Array.isArray(d.materials)?d.materials:[];orders=Array.isArray(d.orders)?d.orders:[];students=Array.isArray(d.students)?d.students:[];save();render();notify('Demo backup imported.')}catch(err){notify('Invalid or unsupported JSON backup.')}};reader.readAsText(e.target.files[0]);e.target.value=''}});
 save();render();
 </script>
+
+<script type="module" id="firebase-authentication-module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBFpy9L0x_e1Tzt-_roy2mASdQKH6hEYyQ",
+  authDomain: "focus-603ab.firebaseapp.com",
+  projectId: "focus-603ab",
+  storageBucket: "focus-603ab.firebasestorage.app",
+  messagingSenderId: "533701662526",
+  appId: "1:533701662526:web:662a5253c914d2c6ba3e6f"
+};
+
+const gate = document.getElementById("authGate");
+const message = document.getElementById("authMessage");
+const emailButton = document.getElementById("emailLogin");
+const googleButton = document.getElementById("googleLogin");
+const uidBox = document.getElementById("uidBox");
+const uidText = document.getElementById("currentUid");
+let persistentNotice = "";
+let busy = false;
+
+function showMessage(text, type = "") {
+  message.textContent = text;
+  message.className = "auth-message" + (type ? " " + type : "");
+}
+function showUid(uid) {
+  uidText.textContent = uid;
+  uidBox.classList.remove("hidden");
+}
+function setBusy(state) {
+  busy = state;
+  emailButton.disabled = state;
+  googleButton.disabled = state;
+  emailButton.style.opacity = state ? ".7" : "1";
+  googleButton.style.opacity = state ? ".7" : "1";
+  emailButton.innerHTML = state ? '<span class="auth-loading"></span> যাচাই হচ্ছে…' : "Sign in with email";
+}
+function friendlyError(error) {
+  const code = error?.code || "";
+  if (code.includes("auth/invalid-credential") || code.includes("auth/wrong-password") || code.includes("auth/user-not-found")) return "ইমেইল বা পাসওয়ার্ড সঠিক নয়, অথবা account তৈরি করা হয়নি।";
+  if (code.includes("auth/unauthorized-domain")) return "এই website Firebase-এ Authorized domain হিসেবে যোগ করা নেই। Authentication → Settings → Authorized domains-এ iammdtanvirrahman.github.io যোগ করো।";
+  if (code.includes("auth/popup-blocked")) return "Google sign-in popup browser আটকে দিয়েছে। Popup অনুমতি দাও অথবা Email/Password ব্যবহার করো।";
+  if (code.includes("auth/popup-closed-by-user")) return "Google sign-in বন্ধ করা হয়েছে। আবার চেষ্টা করো।";
+  if (code.includes("auth/network-request-failed")) return "Network সংযোগ পরীক্ষা করে আবার চেষ্টা করো।";
+  if (code.includes("auth/operation-not-allowed")) return "Firebase Console-এ ব্যবহৃত Sign-in provider enable করা নেই।";
+  return "Sign-in ব্যর্থ হয়েছে (" + (code || error?.message || "unknown error") + ")। Firebase Authentication settings পরীক্ষা করো।";
+}
+
+let app, auth, db;
+try {
+  app = initializeApp(firebaseConfig);
+  auth = getAuth(app);
+  db = getFirestore(app);
+} catch (error) {
+  showMessage("Firebase initialize করা যায়নি। Firebase Web App config এবং internet connection পরীক্ষা করো। " + (error?.message || ""), "error");
+}
+
+async function verifyAdmin(user) {
+  try {
+    showMessage("Login সফল। Firestore-এ admin permission যাচাই হচ্ছে…");
+    const userRef = doc(db, "users", user.uid);
+    const userSnap = await getDoc(userRef);
+    const profile = userSnap.exists() ? userSnap.data() : null;
+    if (profile && profile.role === "admin" && profile.active === true) {
+      persistentNotice = "";
+      document.body.classList.add("admin-verified");
+      const displayName = user.displayName || user.email || "Focus Admin";
+      const strong = document.querySelector(".profile strong");
+      const small = document.querySelector(".profile small");
+      if (strong) strong.textContent = displayName;
+      if (small) small.textContent = user.email || "Authorized administrator";
+      const environment = document.getElementById("environment");
+      if (environment) {
+        environment.textContent = "AUTHENTICATED";
+        environment.className = "badge live";
+      }
+      return;
+    }
+    showUid(user.uid);
+    persistentNotice = "এই Firebase account-টি এখনো admin হিসেবে অনুমোদিত নয়। Authentication → Users থেকে এই sign-in-এর UID নাও এবং Firestore-এ users/" + user.uid + " document-এ role (string) = admin ও active (boolean) = true রাখো।";
+    await signOut(auth);
+    showMessage(persistentNotice, "error");
+  } catch (error) {
+    showUid(user.uid);
+    if (error?.code === "permission-denied" || String(error?.message || "").includes("Missing or insufficient permissions")) {
+      persistentNotice = "Firestore read permission আটকে আছে। Firestore → Rules-এ নিরাপদ rules প্রকাশ করতে হবে। README-এর FIREBASE_SETUP.md-তে প্রয়োজনীয় rules দেওয়া আছে। তোমার sign-in UID: " + user.uid;
+    } else {
+      persistentNotice = "Admin যাচাই করা যায়নি: " + (error?.message || error?.code || "unknown error") + ". Firestore database ও security rules পরীক্ষা করো। UID: " + user.uid;
+    }
+    await signOut(auth);
+    showMessage(persistentNotice, "error");
+  }
+}
+
+if (auth && db) {
+  onAuthStateChanged(auth, async user => {
+    if (user) {
+      document.body.classList.remove("admin-verified");
+      uidBox.classList.add("hidden");
+      await verifyAdmin(user);
+    } else {
+      document.body.classList.remove("admin-verified");
+      if (!busy) setBusy(false);
+      if (persistentNotice) showMessage(persistentNotice, "error");
+      else showMessage("অনুমোদিত অ্যাডমিন অ্যাকাউন্ট দিয়ে সাইন ইন করো।");
+    }
+  });
+
+  document.getElementById("authForm").addEventListener("submit", async event => {
+    event.preventDefault();
+    if (busy) return;
+    persistentNotice = "";
+    uidBox.classList.add("hidden");
+    setBusy(true);
+    showMessage("Email ও password যাচাই করা হচ্ছে…");
+    try {
+      await signInWithEmailAndPassword(auth, document.getElementById("authEmail").value.trim(), document.getElementById("authPassword").value);
+    } catch (error) {
+      showMessage(friendlyError(error), "error");
+    } finally {
+      setBusy(false);
+    }
+  });
+
+  googleButton.addEventListener("click", async () => {
+    if (busy) return;
+    persistentNotice = "";
+    uidBox.classList.add("hidden");
+    setBusy(true);
+    showMessage("Google sign-in খোলা হচ্ছে…");
+    try {
+      const provider = new GoogleAuthProvider();
+      provider.setCustomParameters({ prompt: "select_account" });
+      await signInWithPopup(auth, provider);
+    } catch (error) {
+      showMessage(friendlyError(error), "error");
+    } finally {
+      setBusy(false);
+    }
+  });
+
+  document.getElementById("logoutBtn")?.addEventListener("click", async () => {
+    persistentNotice = "";
+    document.body.classList.remove("admin-verified");
+    try {
+      await signOut(auth);
+      showMessage("তুমি নিরাপদে sign out করেছ।");
+    } catch (error) {
+      showMessage("Sign out ব্যর্থ হয়েছে: " + (error?.message || ""), "error");
+    }
+  });
+
+  document.getElementById("copyUid").addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(uidText.textContent);
+      showMessage("UID কপি হয়েছে। Firestore-এ users/{UID} document-এ admin role যোগ করো.", "success");
+    } catch {
+      showMessage("UID-টি ধরে কপি করো: " + uidText.textContent, "success");
+    }
+  });
+} else {
+  showMessage("Firebase SDK initialize হয়নি। Web App configuration পরীক্ষা করো।", "error");
+}
+</script>
+
 </body></html>
