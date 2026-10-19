@@ -185,6 +185,7 @@ function friendlyError(error) {
   if (code.includes("auth/unauthorized-domain")) return "এই website Firebase-এ Authorized domain হিসেবে যোগ করা নেই। Authentication → Settings → Authorized domains-এ iammdtanvirrahman.github.io যোগ করো।";
   if (code.includes("auth/popup-blocked")) return "Google sign-in popup browser আটকে দিয়েছে। Popup অনুমতি দাও অথবা Email/Password ব্যবহার করো।";
   if (code.includes("auth/popup-closed-by-user")) return "Google sign-in বন্ধ করা হয়েছে। আবার চেষ্টা করো।";
+  if (code.includes("api-key-not-valid") || code.includes("invalid-api-key") || String(error?.message || "").includes("API_KEY_INVALID")) return "Firebase API key invalid. Firebase Console → Project settings → General → Your apps → SDK setup and configuration → Config থেকে পুরো firebaseConfig কপি করে এই ফাইলের firebaseConfig-এর সঙ্গে মিলিয়ে নাও। Google Cloud → APIs & Services → Credentials-এ key deleted বা disabled কি না দেখো।";
   if (code.includes("auth/network-request-failed")) return "Network সংযোগ পরীক্ষা করে আবার চেষ্টা করো।";
   if (code.includes("auth/operation-not-allowed")) return "Firebase Console-এ ব্যবহৃত Sign-in provider enable করা নেই।";
   return "Sign-in ব্যর্থ হয়েছে (" + (code || error?.message || "unknown error") + ")। Firebase Authentication settings পরীক্ষা করো।";
